@@ -40,7 +40,7 @@ var Startpage = function () {
                 'abp': 1,
                 't': 'air',
                 'nj': 0,
-                'startat': 10,
+                'start': 10, //each page is 10 result
                 'rcount': 2
             };
             _async2.default.waterfall([
@@ -62,7 +62,7 @@ var Startpage = function () {
                 cb(null, true);
             }], function (err, result) {
                 if (err) {
-                    console.log(err);
+                    callback(err, null);
                 } else {
                     callback(null, self.result);
                 }

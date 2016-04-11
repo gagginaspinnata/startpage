@@ -19,7 +19,7 @@ class Startpage {
             'abp': 1,
             't': 'air',
             'nj': 0,
-            'start':0, //each page is 10 result
+            'start':1, //each page is 10 result
             'rcount':2
         }
         async.waterfall([
