@@ -20,6 +20,6 @@
   },
   "repository" :
   { "type" : "git"
-  , "url" : "https://github.com/gagginaspinnata/startpage.git"
+  , "url" : "git@github.com:gagginaspinnata/startpage.git"
   }
 }
